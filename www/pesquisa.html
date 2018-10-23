@@ -21,55 +21,65 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="titulo">CADASTRAR VEÍCULO</h2>
+          <h2 class="subtitulo">Listar Veículos</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
+          <label for="">Lista de veículos</label>
+          <select name="lista" id="lista" class="form-control"> </select>
+        </div>
+      </div>
+      <div class="row">
+        <input type="hidden" id="codigo">
+        <div class="col-xs-12">
           <div class="form-group">
-            <label for="">Modelo: </label><br>
-            <input type="text" class="form-group" id="txtModelo">
+            <label for="">Modelo: </label>
+            <input type="text" class="form-control" id="txtModelo">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
-            <label for="">Cor: </label><br>
-            <input type="text" class="form-group" id="txtCor">
+            <label for="">Cor: </label>
+            <input type="text" class="form-control" id="txtCor">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
-            <label for="">Fabricante: </label><br>
-            <input type="text" class="form-group" id="txtFabricante">
+            <label for="">Fabricante: </label>
+            <input type="text" class="form-control" id="txtFabricante">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
-            <label for="">Ano: </label><br>
-            <input type="date" class="form-group" id="dtAno">
+            <label for="">Ano: </label>
+            <input type="date" class="form-control" id="dtAno">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
-            <label for="">Valor:</label><br>
-            <input type="number" class="form-group" id="nrValor">
+            <label for="">Valor: </label>
+            <input type="number" class="form-control" id="nrValor">
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-6">
-          <button class="btn btn-success" id="btnEnviar">Enviar</button>
+        <div class="col-xs-4">
+          <button class="btn btn-primary">Alterar</button>
         </div>
-        <div class="col-xs-6">
-          <button class="btn btn-danger" id="btnCancelar">Cancelar</button>
+        <div class="col-xs-4">
+          <button class="btn btn-warning">Deletar</button>
+        </div>
+        <div class="col-xs-4">
+          <button class="btn btn-danger">Cancelar</button>
         </div>
       </div>
     </div>
